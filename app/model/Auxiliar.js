@@ -5,11 +5,12 @@ class Auxiliar {
     #status
     #anotacao
 
-    constructor(id, nome, telefone, status){
+    constructor(id, nome, telefone, status, anotacao){
         this.#id = id
         this.#nome = nome
         this.#telefone = telefone
         this.#status = status
+        this.#anotacao = anotacao
     }
     
     get id(){ return this.#id }
