@@ -1,4 +1,4 @@
-const SampleService = require('../model/sampleService.js')
+const SampleService = require('../service/sampleService.js')
 
 exports.list = (request, response) => {
     
