@@ -5,7 +5,7 @@ app = express()
 app.use(express.json());
 
 consign()
-    .include('./app/route')
+    .include('./app/config/route')
     .into(app)
 
 module.exports = app
