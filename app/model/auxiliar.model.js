@@ -1,13 +1,15 @@
 class Auxiliar {
     #id
     #nome
+    #sexo
     #telefone
     #status
     #anotacao
 
-    constructor(id, nome, telefone, status, anotacao){
+    constructor(id, nome, sexo, telefone, status, anotacao){
         this.#id = id
         this.#nome = nome
+        this.#sexo = sexo
         this.#telefone = telefone
         this.#status = status
         this.#anotacao = anotacao
@@ -18,6 +20,9 @@ class Auxiliar {
 
     get nome(){ return this.#nome }
     set nome(value){ this.#nome = value}
+
+    get sexo(){ return this.#sexo }
+    set sexo(value){ this.#sexo = value}
 
     get telefone(){ return this.#telefone }
     set telefone(value){ this.#telefone = value}
