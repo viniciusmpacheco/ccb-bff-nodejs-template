@@ -13,10 +13,10 @@ class Jovem {
     #status
     #batizado
     #selado
-    #ultima_visita
+    #ultimaVisita
     #anotacao
 
-    constructor(id, nome, encargo, pai, mae, responsavel, endereco, telefone, celular, idade, turma, status, batizado, selado, ultima_visita, anotacao){
+    constructor(id, nome, encargo, pai, mae, responsavel, endereco, telefone, celular, idade, turma, status, batizado, selado, ultimaVisita, anotacao){
         this.#id = id
         this.#nome = nome
         this.#encargo = encargo
@@ -31,7 +31,7 @@ class Jovem {
         this.#status = status
         this.#batizado = batizado
         this.#selado = selado
-        this.#ultima_visita = ultima_visita
+        this.#ultimaVisita = ultimaVisita
         this.#anotacao = anotacao
     }
 
@@ -77,8 +77,8 @@ class Jovem {
     get selado(){ return this.#selado }
     set selado(value){ this.#selado = value }
 
-    get ultima_visita(){ return this.#ultima_visita }
-    set ultima_visita(value){ this.#ultima_visita = value }
+    get ultimaVisita(){ return this.#ultimaVisita }
+    set ultimaVisita(value){ this.#ultimaVisita = value }
 
     get anotacao(){ return this.#anotacao }
     set anotacao(value){ this.#anotacao = value }

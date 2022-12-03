@@ -4,16 +4,16 @@ class Visita {
     #status
     #endereco
     #tipo
-    #status_retorno
+    #statusRetorno
     #anotacao
 
-    constructor(id, data, status, endereco, tipo, status_retorno, anotacao){
+    constructor(id, data, status, endereco, tipo, statusRetorno, anotacao){
         this.#id = id
         this.#data = data
         this.#status = status
         this.#endereco = endereco
         this.#tipo = tipo
-        this.#status_retorno = status_retorno
+        this.#statusRetorno = statusRetorno
         this.#anotacao = anotacao
     }
 
@@ -35,8 +35,8 @@ class Visita {
     get tipo(){ return this.#tipo }
     set tipo(value){ this.#tipo = value }
 
-    get status_retorno(){ return this.#status_retorno }
-    set status_retorno(value){ this.#status_retorno = value }
+    get statusRetorno(){ return this.#statusRetorno }
+    set statusRetorno(value){ this.#statusRetorno = value }
 
     get anotacao(){ return this.#anotacao }
     set anotacao(value){ this.#anotacao = value }

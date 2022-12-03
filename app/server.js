@@ -1,4 +1,4 @@
-const app = require('./config/server/serverConfig.js')
+const app = require('./config/server/server.config.js')
 const porta = 30001
 
 app.get('/', (request, response) => {
